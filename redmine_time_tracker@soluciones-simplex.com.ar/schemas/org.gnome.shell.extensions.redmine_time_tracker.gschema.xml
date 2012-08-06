@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemalist>
+  <schema path="/org/gnome/shell/extensions/redmine_time_tracker/" id="org.gnome.shell.extensions.redmine_time_tracker">
+    <key type="s" name="url">
+        <default>''</default>
+        <summary>Redmine url</summary>
+        <description>Redmine base url.</description>
+    </key>
+    <key type="s" name="access-key">
+        <default>''</default>
+        <summary>User access key</summary>
+        <description>Your redmine user access key.</description>
+    </key>
+  </schema>
+</schemalist>

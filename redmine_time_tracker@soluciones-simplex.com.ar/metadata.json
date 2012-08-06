@@ -1,0 +1,7 @@
+{
+  "shell-version": ["3.4.1"], 
+  "uuid": "redmine_time_tracker@soluciones-simplex.com.ar", 
+  "name": "Redmine time tracker", 
+  "description": "Time tracking applet",
+  "settings-schema": "org.gnome.shell.extensions.redmine_time_tracker"
+}
