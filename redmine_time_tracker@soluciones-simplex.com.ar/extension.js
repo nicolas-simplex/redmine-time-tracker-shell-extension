@@ -67,7 +67,7 @@ Issue.prototype = {
   },
   
   _createTimeEntry: function(hours){
-    let url = new Url('/time_entries.xml',{'time_entry[issue_id]': this._id, 'time_entry[hours]': hours, 'time_entry[activity_id]': '1' });
+    let url = new Url('/time_entries.xml',{'time_entry[issue_id]': this._id, 'time_entry[hours]': hours });
     let request = Soup.Message.new('POST',url.toString());
     session.queue_message(request, function() {
         
